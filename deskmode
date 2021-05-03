@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo tpacpi-bat -s ST 1 70
+sudo tpacpi-bat -s SP 1 80
