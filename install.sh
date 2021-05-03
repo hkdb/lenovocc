@@ -16,6 +16,7 @@ fi
 
 cp deskmode $HOME/.local/bin/
 cp roadmode $HOME/.local/bin/
+cp checkcc $HOME/.local/bin/
 
 echo "DONE..."
 echo ""

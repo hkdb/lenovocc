@@ -16,6 +16,7 @@ fi
 
 rm $HOME/.local/bin/deskmode
 rm $HOME/.local/bin/roadmode
+rm $HOME/.local/bin/checkcc
 
 echo "DONE..."
 echo ""

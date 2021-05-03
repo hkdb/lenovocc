@@ -25,6 +25,12 @@ cd lenovocc
 
 Make sure you exit out of the shell and start a new one before using so that the at launch check for ~/.local/bin gets registered to `$PATH`.
 
+To uninstall, simply run the following in the terminal inside the repo:
+
+```
+./uninstall.sh
+```
+
 ## USAGE
 
 To set charge thresholds to start at 70 and stop at 80, execute the following in the terminal:
@@ -39,8 +45,14 @@ To set charge thresholds to start at 0 and stop at 100, execute the following in
 roadmode
 ```
 
+To double check on your current settings, execute the following in the terminal:
+```
+checkcc
+```
+
 ## CHANGE
 
+- 05032021 - added checkcc
 - 05032021 - first commit
 
 

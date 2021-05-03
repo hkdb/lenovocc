@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo ""
+echo "Start:"
+sudo tpacpi-bat -g ST 1
+echo ""
+echo "End:"
+sudo tpacpi-bat -g SP 1
